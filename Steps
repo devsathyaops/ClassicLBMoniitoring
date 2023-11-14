@@ -1,0 +1,5 @@
+Created an EC2 instance and installed nginx app 
+Configured classic load balancer and set EC2 as target with port 80 
+Created a SNS topic with subscription of my email id
+To do the monitoring of classic load balancer , created a Lambda function with python code with attached role along with permissions of SNS and lambda access.
+The python code monitors the URL of Classic LB and sends alert to email when it is down and up
